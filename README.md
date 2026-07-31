@@ -1,22 +1,22 @@
 # Rim-s-Destiny-Exo
 
-[h1]Exos have reawakened on the Rim[/h1]
+Exos have reawakened on the Rim.
 After years of slumber the Exos woke up in a strange alien world. No more golden age, no more prosperity: only a merciless wasteland.
 They were gifted with physical immortality... But everything has a price.
 
-[h2]Exomind Xenotype[/h2]
+Exomind Xenotype
 Exominds, more commonly known as "Exos", are former humans who abandonned, willingly or not, their organic bodies for new synthetic ones provided by Braytech. 
 
-While their body are technically stronger and ageless their fragile minds are not adapted to such drastic changes. This causes [b]DER[/b], or Dissociative Exomind Rejection, which can drive Exos to reject their own body, suffering great physical and mental pain.
+While their body are technically stronger and ageless their fragile minds are not adapted to such drastic changes. This causes DER, or Dissociative Exomind Rejection, which can drive Exos to reject their own body, suffering great physical and mental pain.
 
 To delay the inevitable Exos need to "feel alive" and forget they are machines. This is why they need to fulfil basic living needs such as hunger or sleep, despite being immune to starvation and exhaustion. Keeping a high mood is also a great solution.
 
-This can however be treated; a doctor can perform a [b]reboot[/b] surgery on an Exo's mind to clear any residual memory, resetting DER to its lowest level.
+This can however be treated; a doctor can perform a reboot surgery on an Exo's mind to clear any residual memory, resetting DER to its lowest level.
 As a drawback it has a moderate chance to remove 1 or 2 levels of learned skill or even memories of loved ones. It is thus recommanded to wait for DER to reach its peak before proceeding.
 
 After 20 reboots side effects are more frequent and more intense: Alzeihmer, Dementia, greater memory loss and, in some cases, death. 
 
-[h2]How to find Exos[/h2]
+How to find Exos:
 Exos can be recruited from several sources:
 -Imperials (Royalty DLC) and Outlanders may rarely spawn as Exos. They are more commonly found among Ancient ranks,
 - By selecting the "Lonely Exo" scenario,
