@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Rim's Destiny: Exo</name>
+  <author>Froggysnack</author>
+  <packageId>Froggysnack.RimsDestiny.Exo</packageId>
+  <description>Introduces the Exominds from the Destiny franchise. Embrace immortality in exchange for having to manage mental instability.</description>
+  <url>https://github.com/GalemFulgur/Rim-s-Destiny-Core</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+    <li>
+			<packageId>Froggysnack.RimsDestiny.Core</packageId>
+			<displayName>Rim's Destiny: Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3771222941</steamWorkshopUrl>
+			<downloadUrl>https://github.com/GalemFulgur/Rim-s-Destiny-Core</downloadUrl>    
+    </li>
+  </modDependencies>
+  
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>sarg.alphagenes</li>
+    <li>lazyfridaystudio.genesexpandedskin</li>
+    <li>lazyfridaystudio.genesexpandedhair</li>
+    <li>Froggysnack.RimsDestiny.Core</li>
+  </loadAfter>
+
+</ModMetaData>
