@@ -62,10 +62,10 @@ So if you're running out of food you can decide to starve your Exos to spare foo
 Obviously since it's gonna piss them off their DER will progress much faster.
 
 [b]Q: I get an error message from that mod[/b]
-A: Go to the [url=https://github.com/GalemFulgur/Rim-s-Destiny-Exo]project's Github page[/url] and create a new issue with the error message and what happened so I can replicate and try to fix the issue. [b]Any issue posted in the comment section will be ignored.[/b] It's just to avoid flooding the comment section with error messages and coding debates.
+A: Go to the project's Github page (https://github.com/GalemFulgur/Rim-s-Destiny-Exo) and create a new issue with the error message and what happened so I can replicate and try to fix the issue. Any issue posted in the Steam Page comment section will be ignored. It's just to avoid flooding the comment section with error messages and coding debates.
 
 [b]Q: Will you make more mods about Destiny?[/b]
-A: I will! This the first of an ongoing Destiny mod series. To check progress I have [url=https://miro.com/app/board/uXjVH4SR-iU=/?share_link_id=684210267005]a roadmap[/url] that contains every finished and planned feature. Keep in mind that I'm alone, I'm neither a good artist nor coding expert and I'm currently looking for a job, so don't expect daily updates.
+A: I will! This the first of an ongoing Destiny mod series. To check progress I have a roadmap (https://miro.com/app/board/uXjVH4SR-iU=/?share_link_id=684210267005) that contains every finished and planned feature. Keep in mind that I'm alone, I'm neither a good artist nor coding expert and I'm currently looking for a job, so don't expect daily updates.
 
 [h2]Credit[/h2]
 [b]Bungie:[/b] creator of the Destiny franchise
