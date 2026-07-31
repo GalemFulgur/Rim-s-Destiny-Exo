@@ -6,8 +6,9 @@
     <description>Dissociative Exomind Rejection (DER) is an inevitable condition that causes the patient's mind to reject its own body.
 When subjects are happy DER tends to progress more slowly as they less self-aware of their own body. Keeping a high mood is thus recommended.
 When it reaches its final stage the patient will experience frequent mental breaks, ranging from minor to extreme, no matter their current mood.
-The only solution then is a memory reboot, which resets DER's progression at the cost of some memories (skills and relations).</description>
-    <descriptionShort>DER is a psychological conditon causing the subject to reject its own body. It progresses faster the sadder the subject is and at its peak will cause great physical and mental pain.</descriptionShort>
+The only solution then is a memory reboot, which resets DER's progression at the cost of some memories (skills and relations).
+While the 20 first reboots are relativaly safe the next ones have much more frequent and dire side effect (Alzeihmer, Dementia, greater memory loss and, in some cases, death).</description>
+    <descriptionShort>DER is a psychological conditon causing the subject to reject its own body. It progresses faster the sadder the subject is and at its peak will cause great physical and mental pain. Reboot surgeries will reset its severity to a more stable state.</descriptionShort>
     <alwaysShowSeverity>true</alwaysShowSeverity>
     <comps>
       <li Class="RimsDestinyExo.HediffCompProperties_MoodBasedProgression">

@@ -4,7 +4,7 @@
   <XenotypeDef>
     <defName>RD_Exo</defName>
     <label>Exomind</label>
-    <description>Exominds are former humanoïds who have traded their flesh for cybernetic bodies in hopes of escaping their own immortality. However due to the human mind's complexity they sometimes suffer from Dissociative Exomind Rejection, driving them insane as they slowly realise their bodies are not their own. Regular reboots will reset the subject's mind to a stable state, but too many will cause severe psychological damages.</description>
+    <description>Exominds are former humanoïds who have traded their flesh for cybernetic bodies in hopes of escaping their own immortality. However due to the human mind's complexity they live under the threat of Dissociative Exomind Rejection (DER), driving them insane as they slowly realise their synthetic bodies are not their own. Regular reboots will reset the subject's mind to a stable state, but too many will cause severe psychological damages.</description>
     <descriptionShort>Exominds are former humanoïds who became immortal machines. This however inflicted them with DER which, if untreated, causes intense mental distress due to body rejection. Regular reboots are necessary to prevent permanent psychological damages.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Exomind</iconPath>
     <inheritable>true</inheritable>
@@ -72,8 +72,6 @@
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_PurpleHeart</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Bubblegum</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Fuchsia</li>     
-      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Rose</li>     
-      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Raspberry</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Redfish</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_FireRed</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_MarsRed</li>     
@@ -109,7 +107,6 @@
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Evergreen</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Olive</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_DesertCamo</li>     
-      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Taupe</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Teal</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Denim</li>     
       <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_CoolMint</li>     
@@ -137,8 +134,6 @@
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Tangerine</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_PaleLavender</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Orchid</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Plum</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Violet</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Bubblegum</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Fuchsia</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Rose</li>
@@ -164,18 +159,13 @@
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Sage</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Guacamole</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Jade</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Fern</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Teal</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Denim</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_CoolMint</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_IslandLagoon</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BlueSuede</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_SummerSky</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_MauiSurf</li>
       <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_WildBlueberry</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BlueMarlin</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Blurple</li>
-      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Gulfstream</li>
       </genes>
   </XenotypeDef>
 

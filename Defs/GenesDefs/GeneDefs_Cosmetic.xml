@@ -39,6 +39,9 @@
     <description>Carriers of this gene have digital robotic Exomind eyes.</description>
     <iconPath>UI/Icons/Genes/Gene_ExoEyes</iconPath>
     <displayOrderInCategory>0</displayOrderInCategory>
+    <exclusionTags>
+      <li>EyeColor</li>
+    </exclusionTags>        
     <renderNodeProperties> 
       <li Class="PawnRenderNodeProperties_Eye">
         <colorType>Hair</colorType>
@@ -84,9 +87,7 @@
 		<defName>RD_RadiolariaBlood</defName>
 		<label>radiolaria blood</label>
 		<displayCategory>Miscellaneous</displayCategory>
-		<description>Carriers of this gene have a radiolaria powered metabolism, and as such will bleed radiolaria instead of normal human blood.
-Spilled Radiolaria slightly reduces consciousness of organic beings walking on it.
-During Blood transfusion Carriers will give or receive Radiolaria instead of hemogen.</description>
+		<description>Carriers of this gene have a radiolaria powered metabolism, and as such will bleed radiolaria instead of normal human blood.</description>
 		<iconPath>UI/Icons/Genes/Gene_RadiolariaBlood</iconPath>
 		<displayOrderInCategory>0</displayOrderInCategory>
 	
@@ -95,7 +96,6 @@ During Blood transfusion Carriers will give or receive Radiolaria instead of hem
 			<li>Blood</li>
 		</exclusionTags>
 		<selectionWeight>0</selectionWeight>
-    <biostatMet>1</biostatMet>
 		<biostatCpx>1</biostatCpx>
 <modExtensions>
 	<li Class="VEF.Genes.GeneExtension">		  
