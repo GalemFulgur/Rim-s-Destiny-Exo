@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<GeneDef>
+    <defName>RD_ExoArmGene</defName>
+    <label>exo arms</label>
+    <description>Carriers of this gene have artificial arms.
+These arms are more efficient than biological ones but are still inferior to bionics.
+Because of this carriers have good reputation among body modders but are despised by body purrists.</description>
+
+    <geneClass>RimsDestinyExo.Gene_ExoArmGene</geneClass>
+
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+
+    <iconPath>UI/Icons/Genes/Gene_ExoArms</iconPath>
+</GeneDef>
+
+<GeneDef>
+    <defName>RD_ExoLegGene</defName>
+    <label>exo legs</label>
+    <description>Carriers of this gene have artificial legs.
+These legs are more efficient than biological ones but are still inferior to bionics.
+Because of this carriers have good reputation among body modders but are despised by body purrists.</description>
+
+    <geneClass>RimsDestinyExo.Gene_ExoLegGene</geneClass>
+
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+
+    <iconPath>UI/Icons/Genes/Gene_ExoLegs</iconPath>
+</GeneDef>
+</Defs>

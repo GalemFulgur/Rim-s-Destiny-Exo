@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>RD_ExoArm</defName>
+    <label>exo arm</label>
+    <labelNoun>an artificial arm build specificaly for Exos.</labelNoun>
+    <description>An artificial arm specifically built for Exo Frames. It is better than a biological arm but less efficient than bionics.</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>10</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>RD_ExoLeg</defName>
+    <label>exo leg</label>
+    <labelNoun>an exo leg</labelNoun>
+    <description>An artificial leg specifically built for Exo Frames. It is better than a biological leg but less efficient than bionics.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.1</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

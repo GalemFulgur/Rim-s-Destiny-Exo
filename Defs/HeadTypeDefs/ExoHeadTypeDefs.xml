@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <HeadTypeDef Name="ExoBase" Abstract="True">
+    <randomChosen>true</randomChosen>
+    <requiredGenes>
+      <li>RD_ExoHead</li>
+    </requiredGenes>
+    <eyeOffsetEastWest>(0.16, 0, 0.17)</eyeOffsetEastWest>  
+
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Male_Exo_Exo_01</defName>
+    <label>Exo Male 01</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Male/Male_Exo_01</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Male_Exo_Exo_02</defName>
+    <label>Exo Male 02</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Male/Male_Exo_02</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Male_Exo_Exo_03</defName>
+    <label>Exo Male 03</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Male/Male_Exo_03</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Male_Exo_Exo_04</defName>
+    <label>Exo Male 04</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Male/Male_Exo_04</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Male_Exo_Exo_05</defName>
+    <label>Exo Male 05</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Male/Male_Exo_05</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Male_Exo_Exo_06</defName>
+    <label>Exo Male 06</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Male/Male_Exo_06</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Female_Exo_Exo_01</defName>
+    <label>Exo Female 01</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Female/Female_Exo_01</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Female_Exo_Exo_02</defName>
+    <label>Exo Female 02</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Female/Female_Exo_02</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Female_Exo_Exo_03</defName>
+    <label>Exo Female 03</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Female/Female_Exo_03</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Female_Exo_Exo_04</defName>
+    <label>Exo Female 04</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Female/Female_Exo_04</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>   
+
+  <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Female_Exo_Exo_05</defName>
+    <label>Exo Female 05</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Female/Female_Exo_05</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>    
+
+    <HeadTypeDef ParentName="ExoBase">
+    <defName>RD_Female_Exo_Exo_06</defName>
+    <label>Exo Female 06</label>
+    <graphicPath>Things/Pawn/Humanlike/Exo/Heads/Female/Female_Exo_06</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>    
+
+</Defs>

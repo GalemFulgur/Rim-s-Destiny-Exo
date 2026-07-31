@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<GeneDef>
+  <defName>RD_SimulatedHunger</defName>
+  <label>simulated hunger</label>
+  <description>Carriers of this gene do not need food to survive but still feel hunger.</description>
+  <geneClass>RimsDestinyExo.StarvationImmune</geneClass>
+  <biostatMet>-1</biostatMet>
+  <selectionWeight>1.0</selectionWeight>
+  <iconPath>UI/Icons/Genes/Gene_SimulatedHunger</iconPath>
+</GeneDef>
+
+  <GeneDef>
+    <defName>RD_SimulatedSleep</defName>
+    <label>simulated sleep</label>
+    <description>Carriers of this gene do not need to sleep to survive but still feel exhaustion.</description>
+    <geneClass>RimsDestinyExo.ExhaustionImmune</geneClass>
+    <displayCategory>Sleep</displayCategory>
+    <biostatMet>-1</biostatMet>
+    <selectionWeight>1.0</selectionWeight>
+  <iconPath>UI/Icons/Genes/Gene_SimulatedSleep</iconPath>
+  </GeneDef>
+
+</Defs>

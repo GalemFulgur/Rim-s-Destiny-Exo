@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef ParentName="ChronicDiseaseBase">
+    <defName>RD_DER</defName>
+    <label>DER</label>
+    <description>Dissociative Exomind Rejection (DER) is an inevitable condition that causes the patient's mind to reject its own body.
+When subjects are happy DER tends to progress more slowly as they less self-aware of their own body. Keeping a high mood is thus recommended.
+When it reaches its final stage the patient will experience frequent mental breaks, ranging from minor to extreme, no matter their current mood.
+The only solution then is a memory reboot, which resets DER's progression at the cost of some memories (skills and relations).</description>
+    <descriptionShort>DER is a psychological conditon causing the subject to reject its own body. It progresses faster the sadder the subject is and at its peak will cause great physical and mental pain.</descriptionShort>
+    <alwaysShowSeverity>true</alwaysShowSeverity>
+    <comps>
+      <li Class="RimsDestinyExo.HediffCompProperties_MoodBasedProgression">
+        <severityPerHourMax>0.038</severityPerHourMax>
+        <severityPerHour90>0.042</severityPerHour90>
+        <severityPerHour80>0.046</severityPerHour80>
+        <severityPerHour70>0.052</severityPerHour70>
+        <severityPerHour60>0.06</severityPerHour60>
+        <severityPerHour50>0.069</severityPerHour50>
+        <severityPerHour40>0.083</severityPerHour40>
+        <severityPerHour30>0.104</severityPerHour30>
+        <severityPerHour20>0.139</severityPerHour20>
+        <severityPerHour10>0.208</severityPerHour10>
+        <severityPerHourUnhappy>0.417</severityPerHourUnhappy>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0.1</minSeverity>
+        <label>Stable</label>
+      </li>
+      <li>
+        <minSeverity>0.9</minSeverity>
+        <label>Unstable</label>
+        <painOffset>0.1</painOffset>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>-0.1</offset>
+            </li>
+          </capMods>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>Dissociated</label>
+        <painOffset>0.3</painOffset>
+        
+        <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>-0.4</offset>
+            </li>
+            <li>
+              <capacity>Sight</capacity>
+              <offset>-0.5</offset>
+            </li>
+            <li>
+              <capacity>Hearing</capacity>
+              <offset>-0.5</offset>
+            </li>
+          </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

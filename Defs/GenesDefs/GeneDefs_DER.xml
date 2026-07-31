@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<GeneDef>
+  <defName>RD_DER_Gene</defName>
+  <label>DER Inflicted</label>
+
+  <geneClass>RimsDestinyExo.Gene_DER</geneClass>
+
+  <biostatMet>4</biostatMet>
+
+  <description>Carriers of this gene can't handle genetic alterations to their body and are affected by DER.
+This is a psychological condition causing the subject to reject their own body, slowly driving them insane.</description>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>400</displayOrderInCategory>
+    <iconPath>UI/Icons/Genes/Gene_DER</iconPath>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>  
+</GeneDef>
+</Defs>

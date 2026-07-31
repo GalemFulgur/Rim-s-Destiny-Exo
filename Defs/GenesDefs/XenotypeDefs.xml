@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>RD_Exo</defName>
+    <label>Exomind</label>
+    <description>Exominds are former humanoïds who have traded their flesh for cybernetic bodies in hopes of escaping their own immortality. However due to the human mind's complexity they sometimes suffer from Dissociative Exomind Rejection, driving them insane as they slowly realise their bodies are not their own. Regular reboots will reset the subject's mind to a stable state, but too many will cause severe psychological damages.</description>
+    <descriptionShort>Exominds are former humanoïds who became immortal machines. This however inflicted them with DER which, if untreated, causes intense mental distress due to body rejection. Regular reboots are necessary to prevent permanent psychological damages.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Exomind</iconPath>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>Ageless</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">VacuumResistance_Total</li>
+      <li>Skin_Orange</li>
+      <li>Skin_InkBlack</li>
+      <li>Skin_SheerWhite</li>
+      <li>Skin_Blue</li>
+      <li>Skin_Purple</li>
+      <li>Skin_DeepRed</li>
+      <li>Skin_DeepYellow</li>
+      <li>Skin_Green</li>
+      <li>Hair_SnowWhite</li>
+      <li>Hair_Pink</li>
+      <li>Hair_LightPurple</li>
+      <li>Hair_LightBlue</li>
+      <li>Hair_LightGreen</li>
+      <li>Hair_LightOrange</li>
+      <li>Hair_BrightRed</li>
+      <li>MaxTemp_SmallIncrease</li>
+      <li>MinTemp_SmallDecrease</li>
+      <li>PerfectImmunity</li>
+      <li>DiseaseFree</li>
+      <li>ToxicEnvironmentResistance_Total</li>
+      <li>Sterile</li>
+      <li>Body_Standard</li>
+      <li>StrongStomach</li>
+      <li>Hair_BaldOnly</li>
+      <li>Beard_NoBeardOnly</li>
+      <li MayRequire="sarg.alphagenes">AG_Clean</li>
+      <li MayRequire="sarg.alphagenes">AG_VolatileMood</li>
+      <li>RD_ExoHead</li>
+      <li>RD_SimulatedHunger</li>
+      <li>RD_SimulatedSleep</li>
+      <li>RD_ExoArmGene</li>
+      <li>RD_ExoLegGene</li>
+      <li>RD_RadiolariaBlood</li>
+      <li>RD_DER_Gene</li>
+      <li>RD_Exo_Eyes</li>
+      <li>RD_ExoHorn</li>
+      <li>RD_ExoPlates</li>  
+      <li>RD_ExoCrest</li>
+
+<!-- Dub's Bad Hygiene genes -->
+      <li MayRequire="DBHGenes">NoThirst</li>
+      <li MayRequire="DBHGenes">NoBladder</li>     
+
+<!-- [LFS] Genes Expanded: Skin Colors -->
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Yellowfin</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_BananaSplit</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_TaxiCab</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_GoldFish</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_BurntOrange</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Clay</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Tangerine</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_PaleLavender</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Lilac</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Orchid</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Violet</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Grape</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Purple</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Amethyst</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_PurpleHeart</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Bubblegum</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Fuchsia</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Rose</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Raspberry</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Redfish</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_FireRed</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_MarsRed</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Cranberry</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Burgundy</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Merlot</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_White</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_SilverShiner</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_GhostGrey</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_SilverSmoke</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_TinCan</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_SmokeScreen</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_ForgedSteel</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_IronOre</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_StormCloud</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Black</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Rattan</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_MidasGold</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_BeesWax</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Sunset</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_DesertSand</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Copper</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Brown</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Chesnut</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Chocolate</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Kiwi</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_PeaSoup</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Sage</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Guacamole</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Rainforest</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Jade</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Fern</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Evergreen</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Olive</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_DesertCamo</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Taupe</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Teal</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Denim</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_CoolMint</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_IslandLagoon</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Bluegill</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_BlueSuede</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_SummerSky</li>     
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_TidalPool</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_MauiSurf</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_CoolAzul</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_RegalBlue</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_WildBlueberry</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Cobalt</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_BlueMarlin</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_Gulfstream</li>    
+      <li MayRequire="LazyFridayStudio.GenesExpandedSkin">GES_Skin_DeepSea</li>     
+
+<!-- [LFS] Genes Expanded: Hair -->
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Yellowfin</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BananaSplit</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_TaxiCab</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_GoldFish</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BurntOrange</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Clay</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Tangerine</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_PaleLavender</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Orchid</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Plum</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Violet</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Bubblegum</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Fuchsia</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Rose</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Raspberry</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Redfish</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_FireRed</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_MarsRed</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Cranberry</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Burgundy</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_White</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_SilverShiner</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_TinCan</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_ForgedSteel</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Rattan</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_MidasGold</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BeesWax</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Sunset</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Teak</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Copper</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Chesnut</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Kiwi</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_PeaSoup</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Sage</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Guacamole</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Jade</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Fern</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Teal</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Denim</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_CoolMint</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_IslandLagoon</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BlueSuede</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_SummerSky</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_MauiSurf</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_WildBlueberry</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_BlueMarlin</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Blurple</li>
+      <li MayRequire="LazyFridayStudio.GenesExpandedHair">GEH_Hair_Gulfstream</li>
+      </genes>
+  </XenotypeDef>
+
+</Defs>

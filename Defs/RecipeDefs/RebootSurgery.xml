@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<RecipeDef ParentName="SurgeryFlesh">
+    <defName>RD_RebootMemory</defName>
+
+    <label>reboot memory</label>
+
+    <description>Reboots the pawn's memory systems.</description>
+
+    <jobString>Rebooting memory.</jobString>
+
+    <workerClass>RimsDestinyExo.Recipe_RebootMemory</workerClass>
+
+    <targetsBodyPart>false</targetsBodyPart>
+
+    <anesthetize>false</anesthetize>
+
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+
+    <workAmount>1200</workAmount>
+
+    <recipeUsers>
+        <li>Human</li>
+    </recipeUsers>
+</RecipeDef>
+</Defs>
